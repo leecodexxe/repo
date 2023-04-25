@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: var(--primary-color);
+}
+  
+nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+  
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+  
+nav ul li {
+    font-weight: var(--bold-font);
+}
+img{
+    /* overflow-clip-margin: content-box; */
+    margin: 1em;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skills{
+    text-align: center;
+}
+.img-skill{
+    display: block;
+}
+.img-skill img{
+    box-shadow: 1px 1px #888888;
+    border-radius: 10%;
+    width: 200px;
+    background-color: gray;
+}
