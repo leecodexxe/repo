@@ -43,6 +43,7 @@ img{
 .img-skill img{
     box-shadow: 1px 1px #888888;
     border-radius: 10%;
-    width: 200px;
+    max-width: 75px;
     background-color: gray;
 }
+
